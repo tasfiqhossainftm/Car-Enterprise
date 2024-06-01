@@ -180,3 +180,103 @@ nav .rented-wheel {
 }
 
 /* Cards Section End */
+
+/* Media Quries */
+/* Mobile Version */
+@media screen and (max-width: 576px) {
+   nav{
+    flex-direction: column;
+    margin-left: 0px ;
+    margin-bottom: 10px;
+    border-bottom: none;
+   } 
+   nav li{
+    font-size: 0.7rem;
+   }
+   .car-description {
+    margin-top: 0px;
+    padding: 0px;
+   }
+   .car-title {
+    padding-top: 165px;
+    font-size: 0.7rem;
+}
+.car-heading {
+    padding-bottom: 300px;
+    font-size: 2.4rem;
+}
+.form{
+    margin: auto;
+    width: 85%;
+    margin-top: -120px;
+}
+.form .data input{
+    width: 92%;
+}
+.primary-btn{
+    margin-left: 28%;
+}
+.benefits{
+    width: 100%;
+}
+.should {
+    font-size: 2rem;
+    text-decoration: none;
+    padding-bottom: 200px;
+}
+.cards{
+    flex-direction: column;
+    width: 100%;
+}
+.child-cards{
+    padding-bottom: 20px;
+    margin-bottom: 160px;
+}
+}
+
+/* Tablet Version */
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    nav .rented-wheel{
+        width: 30%;
+    }
+    nav li{  
+    font-size: 0.8rem;
+    }
+    nav li a{
+        width: 70%;
+    }
+    .car-title {
+        padding-top: 145px;
+        font-size: 1.2rem;
+   }
+   .car-heading {
+    font-size: 3.4rem;
+    text-decoration: none;
+}
+.form{
+    margin: auto;
+    width: 85%;
+    margin-top: -120px;
+}
+.form .data input{
+    width: 92%;
+    margin-left: 20px;
+}
+.form .data h3{
+    margin-left: 20px;
+}
+.primary-btn{
+    margin-left: 38%;
+}
+.benefits{
+    width: 100%;
+}
+.cards{
+    flex-direction: column;
+    width: 85%;
+}
+.child-cards{
+    margin-bottom: 160px;
+}
+}
