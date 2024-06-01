@@ -58,11 +58,11 @@ nav .rented-wheel {
 }
 
 .car-title {
-     padding-top: 135px;
-     font-size: 1.4rem;
-     font-weight: 700;
-     color: rgb(255, 255, 255);
-     cursor: pointer;
+    padding-top: 135px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
 }
 
 .car-heading {
@@ -77,7 +77,7 @@ nav .rented-wheel {
 
 /* Pick Up Infoirmation Start */
 
-.form{
+.form {
     margin: auto;
     width: 62rem;
     margin-top: -200px;
@@ -85,7 +85,8 @@ nav .rented-wheel {
     padding: 5px;
     border-radius: 5px;
 }
-.form .data h3{
+
+.form .data h3 {
     text-align: left;
     margin-left: 10px;
     margin-bottom: 5px;
@@ -93,7 +94,7 @@ nav .rented-wheel {
 }
 
 
-.form .data input{
+.form .data input {
     margin-left: 10px;
     width: 60rem;
     padding: 20px 0px 20px 20px;
@@ -105,9 +106,9 @@ nav .rented-wheel {
     color: aliceblue;
 }
 
-.primary-btn{
-    padding: 20px 35px;
-    margin-left: 10px;
+.primary-btn {
+    padding: 20px 65px;
+    margin-left: 43%;
     background-color: rgb(0, 95, 197);
     border: none;
     border-radius: 5px;
@@ -115,28 +116,41 @@ nav .rented-wheel {
     color: azure;
 }
 
+.primary-btn:hover {
+    background-color: white;
+    border: 1px solid rgb(0, 95, 197);
+    border-radius: 5px;
+    color: rgb(0, 95, 197);
+    transition-duration: 0.5s;
+    animation: forwards;
+    padding: 25px 65px;
+    box-shadow: 1px 1px 2px;
+}
+
 .benefits img {
     margin-top: 30px;
     width: 150px;
 }
+
 .benefits h4 {
     font-size: 1.4rem;
     font-weight: 600;
     margin-bottom: 20px;
 }
 
-.benefits{
+.benefits {
     text-align: center;
     width: 62rem;
     margin: auto;
 }
-.should{
+
+.should {
     text-decoration: none;
 }
 
 /* Cards Section Start */
 
-.cards{
+.cards {
     display: flex;
     justify-content: space-between;
     width: 62rem;
@@ -144,26 +158,26 @@ nav .rented-wheel {
     padding-bottom: 20px;
 }
 
-.child-cards{
+.child-cards {
     background-color: aliceblue;
     margin-top: -150px;
     margin-left: 10px;
     padding: 5px;
 }
 
-.cards-heading{
+.cards-heading {
     padding-bottom: 10px;
     font-size: 1.2rem;
     font-weight: 700;
     color: rgb(14, 76, 157);
 }
 
-.cards-title{
+.cards-title {
     color: rgb(129, 192, 247);
     padding-bottom: 10px;
 }
 
-.view-more{
+.view-more {
     border: 1.5px solid rgb(14, 76, 157);
     background-color: white;
     color: rgb(14, 76, 157);
@@ -172,111 +186,385 @@ nav .rented-wheel {
     border-radius: 5px;
 }
 
-.view-more:hover{
-    background-color:rgb(14, 76, 157);
+.view-more:hover {
+    background-color: rgb(14, 76, 157);
     color: white;
     border: none;
     transition-duration: 0.5s;
 }
 
+
 /* Cards Section End */
+
+/* What We Do Start */
+.what-we-do {
+    display: flex;
+    width: 62rem;
+    margin: auto;
+    align-items: center;
+}
+
+.image-section {
+    background-image: url(images/hands-wheel-when-driving-high-speed-from-inside-car_169016-22978.avif);
+    /* width: 30rem;
+    height: 40rem;
+    margin-top: -200px; */
+}
+
+.comment {
+    width: 23rem;
+    background-color: rgb(255, 255, 255);
+    margin-top: 300px;
+    margin-left: 180px;
+    margin-right: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    border-left: 4px dashed rgb(14, 76, 157);
+}
+
+.about-agency {
+    width: 28rem;
+    margin-left: 15px;
+}
+
+.about {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(14, 76, 157);
+    padding: 10px 0;
+}
+
+.description-one {
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.quotation-btn {
+    margin: auto;
+    margin-top: 15px;
+}
+
+/* What We Do End */
+
+/* Customers Review Start */
+.customers-review {
+    background-color: rgb(14, 76, 157);
+    margin-left: 8px;
+    padding: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.customers-review h3 {
+    padding: 20px 0;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.customers-review p {
+    width: 40rem;
+    margin: auto;
+    padding: 20px 0;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 160px;
+
+}
+
+.comments{
+    display: flex;
+    margin-bottom: 20px;
+}
+.customers-comment{
+    width: 370px;
+    margin: auto;
+    background-color: white;
+    margin-top: -140px;
+    padding: 50px 15px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 6px black;
+}
+.customers-comment p, h3{
+    padding: 10px 0;
+}
+.customers-comment h4{
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+/* Customers Review End */
+
+/* Our Latest Blog Start */
+.our-blog{
+    width: 40rem;
+    margin: auto;
+    text-align: center;
+    padding: 60px 0;
+}
+.our-blog h3{
+    font-size: 2rem;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.our-blog p{
+    font-size: 1rem;
+    color: rgb(62, 55, 55);
+}
+/* Our Latest Blog End */
+/* Available Cars Start */
+.available-cars{
+    width: 62rem;
+    margin: auto;
+}
+.available-cars p{
+    padding: 0px 0px 15px 0px;
+}
+.available-cars h1{
+    font-weight: 600;
+}
+.available-cars h3{
+    font-size: 2rem;
+    font-weight: 400;
+}
+/* Available Cars End */
+
+/* Footer Section Start*/
+
+.footer-section{
+    display: flex;
+    width: 62rem;
+    margin: auto;
+}
+
+.child-footer{
+    width: 25%;
+    margin: 0px 15px 0px 0px;
+}
+.child-footer .logo img{
+    width: 165px;
+    margin-left: 30px;
+}
+.logo p{
+    margin: 15px 0px;
+}
+.child-footer ul li a{
+    text-decoration: none;
+    color: rgb(14, 76, 157);
+}
+.child-footer ul li a:hover{
+    text-decoration: underline;
+}
+.child-footer ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+/* Footer Section End */
+/* Copyright Start */
+.copyright{
+    background-color: rgb(14, 76, 157);
+    padding: 30px 0;
+    color: white;
+    text-align: center;
+}
+/* Copyright End */
 
 /* Media Quries */
 /* Mobile Version */
 @media screen and (max-width: 576px) {
-   nav{
-    flex-direction: column;
-    margin-left: 0px ;
-    margin-bottom: 10px;
-    border-bottom: none;
-   } 
-   nav li{
-    font-size: 0.7rem;
-   }
-   .car-description {
-    margin-top: 0px;
-    padding: 0px;
-   }
-   .car-title {
-    padding-top: 165px;
-    font-size: 0.7rem;
-}
-.car-heading {
-    padding-bottom: 300px;
-    font-size: 2.4rem;
-}
-.form{
-    margin: auto;
-    width: 85%;
-    margin-top: -120px;
-}
-.form .data input{
-    width: 92%;
-}
-.primary-btn{
-    margin-left: 28%;
-}
-.benefits{
-    width: 100%;
-}
-.should {
-    font-size: 2rem;
-    text-decoration: none;
-    padding-bottom: 200px;
-}
-.cards{
-    flex-direction: column;
-    width: 100%;
-}
-.child-cards{
-    padding-bottom: 20px;
-    margin-bottom: 160px;
-}
+    nav {
+        flex-direction: column;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        border-bottom: none;
+    }
+
+    nav li {
+        font-size: 0.7rem;
+    }
+
+    .car-description {
+        margin-top: 0px;
+        padding: 0px;
+    }
+
+    .car-title {
+        padding-top: 165px;
+        font-size: 0.7rem;
+    }
+
+    .car-heading {
+        padding-bottom: 300px;
+        font-size: 2.4rem;
+    }
+
+    .form {
+        margin: auto;
+        width: 85%;
+        margin-top: -120px;
+    }
+
+    .form .data input {
+        width: 92%;
+    }
+
+    .primary-btn {
+        margin-left: 18%;
+    }
+
+    .benefits {
+        width: 100%;
+    }
+
+    .should {
+        font-size: 2rem;
+        text-decoration: none;
+        padding-bottom: 200px;
+    }
+
+    .cards {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .child-cards {
+        padding-bottom: 20px;
+        margin-bottom: 160px;
+    }
+    .what-we-do{
+        flex-direction: column;
+        width: 100%;
+    }
+    .comment {
+        width: 19rem;
+        margin-top: 300px;
+        margin-left: 0px;
+        margin-right: 54px;
+        margin-bottom: 20px;
+        padding: 23px;
+    }
+    .about-agency {
+        width: 100%;
+        margin-top: 20px;
+        text-align: justify;
+    }
+    .customers-review{
+        width: 100%;
+        padding: 0px;
+    }
+    .customers-review h3{
+        font-size: 1.5rem;
+        padding-bottom: 0;
+    }
+    .customers-review p{
+        font-size: 1rem;
+        text-align: center;
+        width: 100%;
+    }
+    .comments{
+        flex-direction: column;
+    }
+    .customers-comment{
+        width: 100%;
+        margin-left: 9px;
+        margin-bottom: 160px;
+    }
+    .our-blog{
+        width: 100%;
+    }
+    .our-blog h3{
+        font-size: 1.5rem;
+        margin-top: -150px;
+    }
+    .our-blog p{
+        font-size: 1rem;
+        padding: 0 10px;
+        text-align: justify;
+    }
+    .available-cars{
+        width: 100%;
+        padding: 0 10px;
+        text-align: justify;
+    }
+    
+    .footer-section{
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    .footer-section .logo-description{
+        padding: 0 5px;
+        text-align: justify;
+    }
+    .child-footer{
+        width: 100%;
+    }
+    .copyright{
+        width: 100%;
+        text-align: center;
+    }
+    .copyright p{
+        font-size: 0.7rem;
+    }
 }
 
 /* Tablet Version */
 
 @media screen and (min-width:576px) and (max-width:960px) {
-    nav .rented-wheel{
+    nav .rented-wheel {
         width: 30%;
     }
-    nav li{  
-    font-size: 0.8rem;
+
+    nav li {
+        font-size: 0.8rem;
     }
-    nav li a{
+
+    nav li a {
         width: 70%;
     }
+
     .car-title {
         padding-top: 145px;
         font-size: 1.2rem;
-   }
-   .car-heading {
-    font-size: 3.4rem;
-    text-decoration: none;
-}
-.form{
-    margin: auto;
-    width: 85%;
-    margin-top: -120px;
-}
-.form .data input{
-    width: 92%;
-    margin-left: 20px;
-}
-.form .data h3{
-    margin-left: 20px;
-}
-.primary-btn{
-    margin-left: 38%;
-}
-.benefits{
-    width: 100%;
-}
-.cards{
-    flex-direction: column;
-    width: 85%;
-}
-.child-cards{
-    margin-bottom: 160px;
-}
+    }
+
+    .car-heading {
+        font-size: 3.4rem;
+        text-decoration: none;
+    }
+
+    .form {
+        margin: auto;
+        width: 85%;
+        margin-top: -120px;
+    }
+
+    .form .data input {
+        width: 92%;
+        margin-left: 20px;
+    }
+
+    .form .data h3 {
+        margin-left: 20px;
+    }
+
+    .primary-btn {
+        margin-left: 34%;
+    }
+
+    .benefits {
+        width: 100%;
+    }
+
+    .cards {
+        flex-direction: column;
+        width: 85%;
+    }
+
+    .child-cards {
+        margin-bottom: 160px;
+    }
 }
