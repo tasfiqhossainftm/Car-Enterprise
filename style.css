@@ -567,4 +567,31 @@ nav .rented-wheel {
     .child-cards {
         margin-bottom: 160px;
     }
+    .what-we-do{
+        flex-direction: column;
+        width: 100%;
+    }
+    .available-cars{
+        width: 100%;
+        text-align: justify;}
+        .footer-section{
+            width: 100%;
+        }
+    .child-footer .logo img{
+        margin-left: 0;
+    } 
+    .comments{
+        flex-direction: column;}
+        .customers-comment{
+            margin-top: 1rem;
+        }
+        .customers-review{
+            padding: 48px;
+        }
+        .customers-review p{
+            width: 100%;
+            margin: auto;
+            padding: 21px 0;
+            padding-bottom: 50px;
+        }
 }
